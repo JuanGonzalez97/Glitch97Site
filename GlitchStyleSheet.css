@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 body {
     background-image: url("Images/VansPrint.jpg");
 }
@@ -63,10 +64,10 @@ footer {
     background-color: firebrick;
     margin: auto;
 }
-#insta{
-	width: 80px;
-	height:60px;
-	margin: auto;
+#insta {
+    width: 80px;
+    height: 60px;
+    margin: auto;
 }
 ul {
     list-style-type: none;
@@ -95,4 +96,13 @@ li a.active {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+@media (max-width: 767px) {
+}
+
+@media ( min-width : 768px ) and (max-width : 1056px ) {
+}
+
+@media (min-width : 1057px ) {
 }
