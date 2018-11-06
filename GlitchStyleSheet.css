@@ -1,77 +1,97 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	background-image: url("Images/VansPrint.jpg");
-	background-size: contain;
-	background-repeat: repeat-x;
+    background-image: url("Images/VansPrint.jpg");
 }
 #wrap {
-	width: 1024px;
-	height: 860px;
-	background-color: white;
-	margin: auto;
-	margin-top: 20px;
+    width: 1024px;
+    height: 860px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
 }
 header {
-	width: auto;
-	height: 80px;
-	background-color: firebrick;
-	padding: 20px;
+    width: auto;
+    height: 80px;
+    background-color: firebrick;
+    padding: 20px;
 }
 #photo {
-	margin-top: 30px;
-	width: auto;
-	height: 250px;
-	background-image: url(Images/GEAR2.png);
-	background-size: cover;
-	background-position: 0px -356px;
-}
-artice {
-	margin-left: 100px;
-	background-color: aquamarine;
-	width: 624px;
-	height: auto;
+    margin-top: 30px;
+    width: auto;
+    height: 250px;
+    background-image: url(Images/GEAR2.png);
+    background-size: cover;
+    background-position: 0px -356px;
 }
 #point1 {
-	float: left;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
 }
 #point2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
+    float: left;
 }
 #point3 {
-	float: right;
-	margin-right: 100px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
+}
+h1 {
+    font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+p{
+	color: white;
+	margin: 20px;
 }
 footer {
-	width: 1024px;
-	height: 50px;
-	background-color: firebrick;
-	margin: auto;
+    width: 1024px;
+    height: 50px;
+    background-color: firebrick;
+    margin: auto;
+    background-image: url("Images/instagram-logo-black-transparent.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center
 }
 ul {
-	list-style-type: none;
-	margin: 14px;
-	padding: 0;
-	float: right;
-	overflow: hidden;
-	background-color: black;
-	font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin: 14px;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 li {
-	display: inline;
-	float: left
+    display: inline;
+    float: left
 }
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 li a.active {
-	background-color: aqua;
-	color: white;
+    background-color: aqua;
+    color: white;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-	background-color: #111;
+    background-color: #111;
 }
