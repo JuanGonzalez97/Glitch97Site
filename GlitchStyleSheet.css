@@ -1,25 +1,77 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    background-image: url("Images/VansPrint.jpg");
-    background-size: 700px;
+	background-image: url("Images/VansPrint.jpg");
+	background-size: contain;
+	background-repeat: repeat-x;
 }
 #wrap {
-    width: 1120px;
-    height: 860px;
-    background-color: white;
-    margin: auto;
-    margin-top: 20px;
+	width: 1024px;
+	height: 860px;
+	background-color: white;
+	margin: auto;
+	margin-top: 20px;
 }
 header {
-    width: auto;
-    height: 133px;
-    background-color: firebrick;
-    padding: 20px;
+	width: auto;
+	height: 80px;
+	background-color: firebrick;
+	padding: 20px;
+}
+#photo {
+	margin-top: 30px;
+	width: auto;
+	height: 250px;
+	background-image: url(Images/GEAR2.png);
+	background-size: cover;
+	background-position: 0px -356px;
+}
+artice {
+	margin-left: 100px;
+	background-color: aquamarine;
+	width: 624px;
+	height: auto;
+}
+#point1 {
+	float: left;
+}
+#point2 {
+}
+#point3 {
+	float: right;
+	margin-right: 100px;
 }
 footer {
-    width: 1120px;
-    height: 50px;
-    background-color: firebrick;
-    margin: auto;
+	width: 1024px;
+	height: 50px;
+	background-color: firebrick;
+	margin: auto;
+}
+ul {
+	list-style-type: none;
+	margin: 14px;
+	padding: 0;
+	float: right;
+	overflow: hidden;
+	background-color: black;
+	font-family: 'Poppins', sans-serif;
+}
+li {
+	display: inline;
+	float: left
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+li a.active {
+	background-color: aqua;
+	color: white;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
 }
