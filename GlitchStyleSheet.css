@@ -2,141 +2,277 @@
 /* CSS Document */
 
 body {
-	background-image: url("Images/VansPrint.jpg");
+    background-image: url("Images/VansPrint.jpg");
 }
 #wrap {
-	width: 1024px;
-	height: 860px;
-	background-color: white;
-	margin: auto;
-	margin-top: 20px;
+    width: 1024px;
+    height: 860px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
 }
 header {
-	width: auto;
-	height: 80px;
-	background-color: firebrick;
-	padding: 20px;
+    width: auto;
+    height: 80px;
+    background-color: firebrick;
+    padding: 20px;
+}
+#logo {
+    width: 164px;
+    height: 80px;
+    float: left;
 }
 #photo {
-	margin-top: 30px;
-	width: auto;
-	height: 250px;
-	background-image: url(Images/GEAR2.png);
-	background-size: cover;
-	background-position: 0px -356px;
+    margin-top: 30px;
+    width: auto;
+    height: 250px;
+    background-image: url(Images/GEAR2.png);
+    background-size: cover;
+    background-position: 0px -356px;
 }
 #point1 {
-	float: left;
-	margin-top: 40px;
-	margin-left: 40px;
-	background-color: #1D3343;
-	width: 288px;
-	height: 380px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
 }
 #point2 {
-	margin-top: 40px;
-	margin-left: 40px;
-	background-color: #1D3343;
-	width: 288px;
-	height: 380px;
-	float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
+    float: left;
 }
 #point3 {
-	float: right;
-	margin-top: 40px;
-	margin-right: 40px;
-	background-color: #1D3343;
-	width: 288px;
-	height: 380px;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #1D3343;
+    width: 288px;
+    height: 380px;
 }
 h1 {
-	font-size: 30px;
-	font-family: 'Poppins', sans-serif;
-	color: white;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 p {
-	color: white;
-	margin: 20px;
+    color: white;
+    margin: 20px;
 }
 footer {
-	width: 1024px;
-	height: 60px;
-	background-color: firebrick;
-	margin: auto;
+    width: 1024px;
+    height: 60px;
+    background-color: firebrick;
+    margin: auto;
 }
 #insta {
-	width: 80px;
-	height: 60px;
-	margin: auto;
+    width: 80px;
+    height: 60px;
+    margin: auto;
 }
 ul {
-	list-style-type: none;
-	margin: 14px;
-	padding: 0;
-	float: right;
-	overflow: hidden;
-	background-color: black;
-	font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    margin: 14px;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
 }
 li {
-	display: inline;
-	float: left
+    display: inline;
+    float: left
 }
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 li a.active {
-	background-color: aqua;
-	color: white;
+    background-color: aqua;
+    color: white;
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-	background-color: #111;
+    background-color: #111;
 }
 
-/* IPhone 7 Plus Landscape */
-@media (max-width : 736px ) {
-#wrap {
-	width: 75%;
-	height: 1480px;
+/* Desktops */
+@media (min-width : 1049px ) {
 }
-header {
-	height: 152px;
+
+/* Tablets */
+@media (min-width : 827px ) and ( max-width : 1048px ){
+#wrap {
+    width: 75%;
+    height: 1305px;
 }
 #logo {
-	margin-left: 32%;
+    margin: auto;
 }
 #photo {
-	background-position: center;
-	background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    width: 100%;
+    background-color: #625B9C;
+}
+main {
+    margin: 40px;
+    width: auto;
 }
 #point1 {
-	width: 85%;
-	height: 380px;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 #point2 {
-	width: 85%;
-	height: 380px;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 #point3 {
-	width: 85%;
-	height: 380px;
-}
-#photo {
-	visibility: hidden;
-	margin-bottom: -291px;
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin: auto;
 }
 footer {
-	width: 75%;
+    width: 75%;
 }
 }
 
-@media ( min-width : 737px ) and (max-width : 1048px ) {
+/* IPhone 7 Plus Landscape and Tablat Portrait */
+@media ( min-width : 692px ) and (max-width : 826px ){
+#wrap {
+    width: 75%;
+    height: 1285px;
+}
+header {
+    width: auto;
+    height: 60px;
+    background-color: firebrick;
+    margin: auto;
+}
+#logo {
+    width: 164px;
+    height: 80px;
+    margin: 0 auto;
+}
+#photo {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    margin: 40px;
+    width: auto;
+}
+#point1 {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#point2 {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#point3 {
+    width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+    margin: auto;
+}
+footer {
+    width: 75%;
+}
+ul {
+    margin: auto;
+    clear:both;
+}
 }
 
-@media (min-width : 1049px ) {
+/* IPhone 7 Plus Portrait */
+@media (max-width: 691px) {
+li a {
+    display: block;
+    width: 140px;
+}
+ul {
+    margin-bottom: 0;
+    width: 140px;
+}
+#wrap {
+    width: 75%;
+    height: 1760px;
+}
+header {
+    height: 152px;
+	
+}
+#logo {
+    margin-left: 14px
+}
+#photo {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    margin: 40px;
+    width: auto;
+}
+#point1 {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#point2 {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+#point3 {
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+    margin: auto;
+}
+#photo {
+    visibility: hidden;
+    margin-bottom: -291px;
+}
+footer {
+    width: 75%;
+}
 }
