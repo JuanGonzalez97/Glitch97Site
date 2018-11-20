@@ -29,6 +29,7 @@ header {
     background-image: url(Images/GEAR2.png);
     background-size: cover;
     background-position: 0px -356px;
+	
 }
 #point1 {
     float: left;
@@ -108,7 +109,7 @@ li a:hover {
 }
 
 /* Tablets */
-@media (min-width : 827px ) and ( max-width : 1048px ){
+@media (min-width : 965px ) and ( max-width : 1048px ) {
 #wrap {
     width: 75%;
     height: 1305px;
@@ -158,21 +159,21 @@ footer {
 }
 
 /* IPhone 7 Plus Landscape and Tablat Portrait */
-@media ( min-width : 692px ) and (max-width : 826px ){
+@media (min-width : 709px ) and ( max-width : 964px ) {
 #wrap {
     width: 75%;
-    height: 1285px;
+    height: 1365px;
 }
 header {
     width: auto;
-    height: 60px;
+    height: 140px;
     background-color: firebrick;
     margin: auto;
 }
 #logo {
     width: 164px;
     height: 80px;
-    margin: 0 auto;
+    margin-bottom: 14px;
 }
 #photo {
     background-position: center;
@@ -209,32 +210,44 @@ main {
 footer {
     width: 75%;
 }
+li {
+}
+li a {
+    display: inline-block;
+}
 ul {
+    width: 100%;
+    float: left;
     margin: auto;
-    clear:both;
 }
 }
 
 /* IPhone 7 Plus Portrait */
-@media (max-width: 691px) {
+@media (max-width : 708px ) {
+li {
+    float: none;
+}
 li a {
     display: block;
-    width: 140px;
 }
 ul {
-    margin-bottom: 0;
-    width: 140px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    float: left;
+    width: 100%;
 }
 #wrap {
-    width: 75%;
-    height: 1760px;
+    width: 90%;
+    background-color: transparent;
 }
 header {
-    height: 152px;
-	
+    height: 364px;
 }
 #logo {
-    margin-left: 14px
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
 }
 #photo {
     background-position: center;
@@ -247,7 +260,6 @@ main {
 #point1 {
     width: 100%;
     height: 20%;
-    overflow: hidden;
     margin-bottom: 40px;
     margin-top: 0;
     margin-left: 0;
@@ -256,7 +268,6 @@ main {
 #point2 {
     width: 100%;
     height: 20%;
-    overflow: hidden;
     margin-bottom: 40px;
     margin-top: 0;
     margin-left: 0;
@@ -265,14 +276,15 @@ main {
 #point3 {
     width: 100%;
     height: 20%;
-    overflow: hidden;
     margin: auto;
+    margin-bottom: 20px;
 }
 #photo {
     visibility: hidden;
     margin-bottom: -291px;
 }
 footer {
-    width: 75%;
+    width: 90%;
+    clear: both;
 }
 }
