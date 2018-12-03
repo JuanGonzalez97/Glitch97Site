@@ -40,10 +40,6 @@ header {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 }
-#product {
-	height: 30px;
-	width: 100%;
-}
 #point1 {
 	float: left;
 	margin-top: 40px;
@@ -135,12 +131,26 @@ li a:hover {
 	background-repeat: no-repeat;
 }
 main {
-	width: 100%;
 	background-color: #625B9C;
-}
-main {
 	margin: 40px;
 	width: auto;
+}
+#product {
+	float: left;
+}
+#product2 {
+	float: left;
+}
+#product3 {
+	float: left;
+}
+h1 {
+	float: left;
+	width: 300px
+}
+p {
+	float: left;
+	margin: 10px
 }
 #point1 {
 	width: 100%;
@@ -195,6 +205,22 @@ header {
 main {
 	margin: 40px;
 	width: auto;
+}
+#product {
+	float: left;
+}
+#product2 {
+	float: left;
+}
+#product3 {
+	float: left;
+	margin-top: -96px;
+}
+h1 {
+	visibility: hidden;
+}
+p {
+	visibility: hidden;
 }
 #point1 {
 	width: 100%;
