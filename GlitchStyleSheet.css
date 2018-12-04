@@ -135,6 +135,9 @@ main {
 	margin: 40px;
 	width: auto;
 }
+	#block{
+		font-size: 7em;
+	}
 #product {
 	float: left;
 }
@@ -202,12 +205,16 @@ header {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+	#block{
+		font-size: 5em;
+	}
 main {
 	margin: 40px;
 	width: auto;
 }
 #product {
 	float: left;
+	overflow: hidden;
 }
 #product2 {
 	float: left;
